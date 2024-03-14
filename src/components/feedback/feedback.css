@@ -1,0 +1,135 @@
+.container__comments {
+  text-align: center;
+  width: 330px;
+  margin-top: -20px;
+  border-bottom: 1px solid rgb(190, 136, 34);
+}
+
+.container__comments--comment {
+  width: 350px;
+  text-align: left;
+  margin: 0 auto;
+  font-style: italic;
+  color: rgb(137, 98, 25);
+}
+
+.container__comments--comment--name {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px
+}
+
+.gradient {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  height: 1.5px;
+  background-image: linear-gradient(to right, orange, brown);
+  margin-right:25px;
+}
+
+.container__comments--title,
+.container__comments--title--feed {
+  font-size: 20px;
+  color: rgb(190, 136, 34);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container__comments--title--feed{
+  margin-top: 60px
+}
+.container__comments__overview {
+  text-align: center;
+}
+
+.container__comments--form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+.container__comments--label {
+  color: rgb(190, 136, 34);
+  font-size: 12px;
+  background-color: aliceblue;
+  position: relative;
+  left: -80px;
+  top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container__comments--input {
+  border-radius: 15px;
+  border-color: orange;
+  padding: 3px;
+  width: 230px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.container__comments--textarea {
+  border-radius: 15px;
+  border: 2px solid orange;
+  padding: 8px 8px 80px 8px;
+  width: 230px;
+  background-color: aliceblue;
+}
+
+.container__comments--button {
+  background-color: rgb(196, 131, 11);
+  color: white;
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.container__comments--button:hover {
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+}
+
+@media (min-width: 576px) {
+  .container__comments {
+    padding: 20px;
+    width: 500px;
+  }
+
+  .container__comments--title {
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 350px;
+  }
+
+  .container__comments--label {
+    font-size: 12px;
+  }
+
+  .container__comments--input {
+    font-size: 12px;
+  }
+
+  .container__comments--textarea {
+    font-size: 12px;
+    padding-bottom: 80px;
+  }
+
+  .container__comments--button {
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}

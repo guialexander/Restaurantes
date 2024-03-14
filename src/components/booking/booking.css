@@ -1,0 +1,89 @@
+.booking {
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+  margin-left: -10px;
+  border-radius: 50px;
+  width: 340px;
+}
+
+.booking__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px auto;
+  color: rgb(190, 136, 34);
+}
+
+.booking__text {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  width: 300px;
+}
+
+.booking__form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px
+}
+
+.booking__form > div {
+  margin-bottom: 15px;
+}
+
+.booking__form--label {
+  color: rgb(190, 136, 34);
+  font-size: 12px;
+  background-color: aliceblue;
+  position: relative;
+  left: 55px;
+  top: -15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.booking__form--input, .booking__form--input--guests {
+  border-radius: 15px;
+  border-color: orange;
+  padding: 3px;
+  width: 230px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.booking__form--input--guests {
+  width: 250px;
+  margin-left: -10px;
+  padding: 5px;
+  border: 2px solid orange;
+}
+
+.booking__form--button{
+  background-color: rgb(196, 131, 11);
+  color: white;
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+@media(min-width: 576px){
+  .booking {
+    margin: -20px auto;
+  }
+  .booking__title {
+    font-size: 25px;
+
+  }
+
+  .booking__text {
+    font-size: 18px;
+  }
+
+}
